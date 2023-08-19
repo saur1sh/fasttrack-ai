@@ -1,0 +1,4 @@
+Collecting flatbuffers
+  Downloading flatbuffers-23.3.3-py2.py3-none-any.whl (26 kB)
+Installing collected packages: flatbuffers
+Successfully installed flatbuffers-23.3.3

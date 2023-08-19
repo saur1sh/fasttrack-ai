@@ -1,0 +1,6 @@
+Collecting astunparse
+  Using cached astunparse-1.6.3-py2.py3-none-any.whl (12 kB)
+Requirement already satisfied: wheel<1.0,>=0.23.0 in c:\users\mayan\anaconda3\lib\site-packages (from astunparse) (0.37.1)
+Requirement already satisfied: six<2.0,>=1.6.1 in c:\users\mayan\anaconda3\lib\site-packages (from astunparse) (1.16.0)
+Installing collected packages: astunparse
+Successfully installed astunparse-1.6.3

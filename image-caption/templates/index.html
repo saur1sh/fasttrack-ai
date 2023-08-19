@@ -1,0 +1,19 @@
+{%extends "base.html"%}
+
+{%block content%}
+
+<center>
+	
+<h1 class='display-1'>CCTV Footage Analyzer</h1>
+<h3>Image Captioning to identify the action of the recognized face out of all detected faces.</h3>
+
+<br>
+<br>
+
+<form action="{{url_for('detect')}}" method='POST' enctype='multipart/form-data'>
+    <input type="file" name='file1'>
+<input type="submit" name="btn" value='Detect Person' class='btn btn-warning'> 
+</form>
+</center>
+
+{%endblock%}

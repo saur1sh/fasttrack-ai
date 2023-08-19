@@ -1,0 +1,24 @@
+{%extends "base.html"%}
+    
+{%block content%}
+
+<center>
+
+	<h1 class='display-2'>Detected Faces </h1>
+
+	<br>
+	<br>
+	
+<img src="{{url_for('static', filename='file.jpg')}}" alt="image" height=800px>
+<img src="{{url_for('static', filename='crop.jpg')}}" alt="image" height=340px>
+
+<br>
+
+<form action="{{url_for('after')}}" method='POST' enctype='multipart/form-data'>
+
+<input type="submit" name="btn" value='Action Recognition' class='btn btn-warning'> 
+</form>
+
+</center>
+
+{%endblock%}
